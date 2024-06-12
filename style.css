@@ -1,0 +1,670 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: white;
+    
+}
+
+.bg-color{
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-size: auto;
+    
+    padding: 5px;
+
+    .logo{
+        display: flex;
+        padding-inline-start: 60px;
+        color: white;
+
+        span{
+            color:  rgb(204,0,0);
+        }
+
+        .home{
+            display: flex;
+            padding-inline-start: 270px;
+            margin-top: 10px;
+
+            p{
+                font-size: 13px;
+            }
+
+            a{
+                color: white;
+                text-decoration: none;
+
+                :hover{
+                    color: rgb(204,0,0);
+                }
+            }
+
+            .offer{
+                display: flex;
+                padding-inline-start: 40px;
+
+                .menu{
+                    display: flex;
+                    padding-inline-start: 10px;
+
+                    .service{
+                        display: flex;
+                        padding-inline-start: 40px;
+
+                        .store{
+                            display: flex;
+                            padding-inline-start: 40px;
+
+                            .about{
+                                display: flex;
+                                padding-inline-start: 40px;
+
+                                .accesories{
+                                    display: flex;
+                                    padding-inline-start: 40px;
+
+                                    .community{
+                                        display: flex;
+                                        padding-inline-start: 40px;
+
+                                        .maps{
+                                            display: flex;
+                                            padding-inline-start: 120px;
+                                            margin-top: 10px;
+                                        }
+
+                                        .login{
+                                            display: flex;
+                                            padding-inline-start: 40px;
+                                           margin-top: 3px;
+
+                                            button{
+                                                width: 100px;
+                                                height: 80%;
+                                                border: none;
+                                                color: white;
+                                                background-color: rgb(204,0,0);
+                                                cursor: pointer;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+.bg-login{
+    background-image: url(adams_polishes_premium_detailing_bucket_web_banner.webp);
+    padding: 15%;
+    background-repeat: no-repeat;
+}
+
+.container-teks-1{
+    color: white;
+    
+    font-size: 25px;
+    
+}
+
+.teks-2{
+    color: white;
+}
+
+.btn-shop-now{
+    margin-top: 35px;
+
+    button{
+        width: 30%;
+        border: none;
+        background-color: rgb(204,0,0);
+        color: white;
+        cursor: pointer;
+    }
+}
+
+.container-judul-new-product{
+    color: black;
+    font-size: 15px;
+    font-family: sans-serif;
+    padding-inline-start: 60px;
+    display: flex;
+    margin-top: 40px;
+
+    .btn-view{
+        margin-inline-start: 50.5rem;
+        display: flex;
+        margin-top: 7px;
+
+        button{
+            width: 120px;
+            height: 40px;
+            border: none;
+            background-color: rgb(204,0,0);
+            color: white;
+            cursor: pointer;
+        }
+    }
+}
+
+/* img new product */
+
+.img-1{
+    display: flex;
+    padding-inline-start: 120px;
+    margin-top: 30px;
+
+    .img-2{
+        display: flex;
+        padding-inline-start: 30px;
+
+        .img-3{
+            display: flex;
+            padding-inline-start: 30px;
+
+            .img-4{
+                display: flex;
+                padding-inline-start: 30px;
+            }
+        }
+    }
+}
+
+/* rating  */
+
+.rating-1{
+    display: flex;
+    padding-inline-start: 200px;
+    padding-top: 20px;
+
+    .rating-2{
+        display: flex;
+        padding-inline-start: 180px;
+
+        .rating-3{
+            display: flex;
+            padding-inline-start: 185px;
+
+            .rating-4{
+                display: flex;
+                padding-inline-start: 200px;
+            }
+        }
+    }
+}
+
+/* merk produk */
+
+.merk-produk-1{
+    display: flex;
+    padding-inline-start: 120px;
+    color: black;
+    font-size: 15px;
+    font-family: sans-serif;
+
+    .merk-produk-2{
+        display: flex;
+        padding-inline-start: 40px;
+
+        .merk-produk-3{
+            display: flex;
+            padding-inline-start: 96px;
+
+            .merk-produk-4{
+                display: flex;
+                padding-inline-start: 80px;
+            }
+        }
+    }
+}
+
+.harga-1{
+    display: flex;
+    padding-inline-start: 210px;
+    font-family: sans-serif;
+
+    .harga-2{
+        display: flex;
+        padding-inline-start: 190px;
+
+        .harga-3{
+            display: flex;
+            padding-inline-start: 205px;
+
+            .harga-4{
+                display: flex;
+                padding-inline-start: 220px;
+            }
+        }
+    }
+}
+
+/* btn order */
+
+.btn-order-1{
+    display: flex;
+    padding-inline-start: 150px;
+
+    button{
+        width: 190px;
+        border: none;
+        background-color: rgb(204,0,0);
+        color: white;
+        cursor: pointer;
+    }
+
+    .btn-order-2{
+        display: flex;
+        padding-inline-start: 100px;
+
+        .btn-order-3{
+            display: flex;
+            padding-inline-start: 105px;
+
+            .btn-order-4{
+                display: flex;
+                padding-inline-start: 100px;
+            }
+        }
+    }
+}
+
+.bg-black{
+    background-color: black;
+    padding: .5px;
+    margin-top: 90px;
+}
+
+.container-judul-new-product-2{
+    color: white;
+    font-size: 15px;
+    font-family: sans-serif;
+    padding-inline-start: 60px;
+    display: flex;
+    padding-top: 20px;
+
+    .btn-view-2{
+        margin-inline-start: 50.5rem;
+        display: flex;
+        margin-top: 10px;
+        cursor: pointer;
+
+        button{
+            width: 120px;
+            height: 40px;
+            border-color: white;
+            background-color: black;
+            color: white;
+        }
+    }
+}
+
+
+/* merk produk */
+
+.top-produk-1{
+    display: flex;
+    padding-inline-start: 145px;
+    color: white;
+    font-size: 15px;
+    font-family: sans-serif;
+
+    .top-produk-2{
+        display: flex;
+        padding-inline-start: 55px;
+
+        .top-produk-3{
+            display: flex;
+            padding-inline-start: 30px;
+
+            .top-produk-4{
+                display: flex;
+                padding-inline-start: 25px;
+            }
+        }
+    }
+}
+
+.harga-top-1{
+    display: flex;
+    padding-inline-start: 208px;
+    font-family: sans-serif;
+    color: white;
+
+    .harga-top-2{
+        display: flex;
+        padding-inline-start: 203px;
+
+        .harga-top-3{
+            display: flex;
+            padding-inline-start: 210px;
+
+            .harga-top-4{
+                display: flex;
+                padding-inline-start: 215px;
+            }
+        }
+    }
+}
+
+.container-judul-tire{
+    color: black;
+    font-size: 15px;
+    font-family: sans-serif;
+    padding-inline-start: 60px;
+    display: flex;
+    margin-top: 60px;
+
+    .btn-view{
+        margin-inline-start: 50.5rem;
+        display: flex;
+        margin-top: 7px;
+
+        button{
+            width: 120px;
+            height: 40px;
+            border: none;
+            background-color: rgb(204,0,0);
+            color: white;
+            cursor: pointer;
+        }
+    }
+}
+
+/* merk produk ketiga tire */
+
+.tire-produk-1{
+    display: flex;
+    padding-inline-start: 135px;
+    color: black;
+    font-size: 15px;
+    font-family: sans-serif;
+
+    .tire-produk-2{
+        display: flex;
+        padding-inline-start: 80px;
+
+        .tire-produk-3{
+            display: flex;
+            padding-inline-start: 98px;
+
+            .tire-produk-4{
+                display: flex;
+                padding-inline-start: 130px;
+            }
+        }
+    }
+}
+
+/* footer */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px ;
+    margin-top: 60px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    
+}
+
+.footer-section {
+    flex: 1;
+    padding: 10px;
+}
+
+.footer-section h2 {
+    margin-bottom: 20px;
+}
+
+.footer-section p,
+.footer-section ul,
+.footer-section li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.footer-section ul {
+    padding: 0;
+}
+
+.footer-section li {
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.footer-section a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-section a:hover {
+    color: #ff6347;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 10px;
+    background-color: #222;
+}
+
+.footer-section i {
+    margin-right: 10px;
+}
+
+.new-judul{
+    margin-top: 160px;
+    color: black;
+    padding-inline-start: 60px;
+    display: flex;
+
+    .nav-home{
+        display: flex;
+        margin-top: 25px;
+        padding-inline-start: 20px;
+
+        a{
+            color: rgb(105,105,105);
+            text-decoration: none;
+        }
+    }
+}
+
+/* merk new produk */
+
+.new-produk-1{
+    display: flex;
+    padding-inline-start: 120px;
+    color: black;
+    font-size: 15px;
+    font-family: sans-serif;
+
+    .new-produk-2{
+        display: flex;
+        padding-inline-start: 80px;
+
+        .new-produk-3{
+            display: flex;
+            padding-inline-start: 120px;
+
+            .new-produk-4{
+                display: flex;
+                padding-inline-start: 150px;
+            }
+        }
+    }
+}
+
+.harga-new-1{
+    display: flex;
+    padding-inline-start: 200px;
+    font-family: sans-serif;
+
+    .harga-new-2{
+        display: flex;
+        padding-inline-start: 210px;
+
+        .harga-new-3{
+            display: flex;
+            padding-inline-start: 216px;
+
+            .harga-new-4{
+                display: flex;
+                padding-inline-start: 220px;
+            }
+        }
+    }
+}
+
+
+/* merk produk */
+
+.top-produk-1-1{
+    display: flex;
+    padding-inline-start: 145px;
+    color: black;
+    font-size: 15px;
+    font-family: sans-serif;
+
+    .top-produk-2-2{
+        display: flex;
+        padding-inline-start: 55px;
+
+        .top-produk-3-3{
+            display: flex;
+            padding-inline-start: 30px;
+
+            .top-produk-4-4{
+                display: flex;
+                padding-inline-start: 25px;
+            }
+        }
+    }
+}
+
+.harga-top-1-1{
+    display: flex;
+    padding-inline-start: 208px;
+    font-family: sans-serif;
+    color: black;
+
+    .harga-top-2-2{
+        display: flex;
+        padding-inline-start: 203px;
+
+        .harga-top-3-3{
+            display: flex;
+            padding-inline-start: 210px;
+
+            .harga-top-4-4{
+                display: flex;
+                padding-inline-start: 215px;
+            }
+        }
+    }
+}
+
+.ceramic-1{
+    display: flex;
+    padding-inline-start: 170px;
+    color: black;
+
+    .ceramic-2{
+        display: flex;
+        padding-inline-start: 120px;
+
+        .ceramic-3{
+            display: flex;
+            padding-inline-start: 160px;
+
+            .ceramic-4{
+                display: flex;
+                padding-inline-start: 175px;
+            }
+        }
+    }
+}
+
+.ceramic-prize-1{
+    display: flex;
+    padding-inline-start: 213px;
+    color: black;
+
+    .ceramic-prize-2{
+        display: flex;
+        padding-inline-start: 207px ;
+
+        .ceramic-prize-3{
+            display: flex;
+            padding-inline-start: 215px;
+
+              .ceramic-prize-4{
+                display: flex;
+                padding-inline-start: 215px;
+              }
+        }
+    }
+}
+
+.ext-1{
+    display: flex;
+    padding-inline-start: 150px;
+    color: black;
+
+    .ext-2{
+        display: flex;
+        padding-inline-start: 45px;
+
+        .ext-3{
+            display: flex;
+            padding-inline-start: 60px;
+
+            .ext-4{
+                display: flex;
+                padding-inline-start: 65px;
+            }
+        }
+    }
+}
+
+@media (max-width: 550px) {
+    html{
+        text-align: center;
+        justify-content: baseline;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+
+        img{
+            text-align: center;
+            justify-content: baseline;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+        }
+    }
+}
